@@ -1,0 +1,22 @@
+#mainCarousel {
+    .carousel-caption {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        text-align: left;
+        top: 0;
+        padding: 0;
+        
+        p {
+            margin: 10px 0 16px 0;
+            font-size: 23px;
+        }
+    }
+    
+    .glyphicon-chevron-right, .glyphicon-chevron-left {
+        border: 2px solid #ffffff;
+        font-size: 14px;
+        line-height: 27.5px;
+    }
+}

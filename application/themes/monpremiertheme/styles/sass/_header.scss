@@ -1,0 +1,46 @@
+.logo {
+    height: 38px;
+    margin: 24px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 3px solid #494949;
+    
+    .websitename {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+        line-height: 34px;
+        text-align: center;
+        color: #494949;
+    }
+    
+    transition: background-color 0.1s linear, color 0.1s linear;
+    
+    &:hover {
+        cursor: pointer;
+        background-color: #494949;
+        color: #eee;
+    }
+}
+
+.navmenu {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+    
+    margin-bottom: 0;
+    
+    .navmenu-item {
+        display: inline-block;
+        height: 86px;
+        padding: 0 22px;
+        line-height: 86px;
+        color: #494949;
+        
+        &:hover {
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+    }
+}
